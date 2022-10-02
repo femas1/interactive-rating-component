@@ -7,10 +7,8 @@ const removeActiveClasses = function() {
 }
 
 ratingNumbers.forEach(number => {
-    
-
     number.addEventListener('click', ()=> {
-        removeActiveClasses();
+        removeActiveClasses();2
         number.classList.toggle('active');
     })
 })

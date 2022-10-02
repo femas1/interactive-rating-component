@@ -105,6 +105,10 @@ body {
     color: hsl(25, 97%, 53%);
 }
 
+.container__button:active {
+    transform: translate(1px, -1px);
+}
+
 .hidden {
     display: none;
 }
