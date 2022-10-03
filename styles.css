@@ -45,7 +45,7 @@ body {
     margin-bottom: 10px;
 }
 
-.container__text__paragraph {
+.container__text__paragraph, .container__thanks__paragraph {
     font-size: 17px;
     line-height: 30px;
     margin-bottom: 30px;
@@ -109,9 +109,38 @@ body {
     transform: translate(1px, -1px);
 }
 
-.hidden {
-    display: none;
+/* STYLING THANK YOU CONTAINER  */
+
+.container__thanks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
+
+.container__thanks__illustration {
+    height: 125px;
+}
+
+.container__thanks__rated {
+    background-color: hsl(210, 11%, 25%);
+    color: hsl(25, 97%, 53%);
+    padding: 12px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.container__thanks__heading {
+    color: hsl(0, 0%, 100%);
+    margin-top: 15px;
+}
+
+.container__thanks__paragraph {
+    text-align: center;
+}
+
+/* ATTIBUTION STYLING  */
 
 .attribution { 
     margin-top: 5px;
@@ -120,4 +149,8 @@ body {
 
 .attribution a { 
     color: hsl(228, 45%, 44%);
+}
+
+.hidden {
+    display: none;
 }
