@@ -22,7 +22,7 @@ body {
     align-items: center;
 }
 
-.container {
+.container, .container__thanks {
     background-color: hsl(213, 19%, 18%);
     height: 485px;
     width: 480px;
