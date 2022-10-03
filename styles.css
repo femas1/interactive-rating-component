@@ -151,6 +151,44 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 490px) {
+    .container, .container__thanks {
+        background-color: hsl(213, 19%, 18%);
+        height: 485px;
+        width: 380px;
+        border-radius: 40px;
+        padding: 40px;
+    }
+
+    .container__star {
+        padding: 10px;
+        height: 40px;
+        background-color: hsl(210, 11%, 25%);
+        border-radius: 50%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .container__text__heading {
+        font-size: 25px;
+    }
+    
+    .container__text__paragraph, .container__thanks__paragraph {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+
+    .container__rating__number {
+        font-size: 16px;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+    }
+}
+
 .hidden {
     display: none;
 }
